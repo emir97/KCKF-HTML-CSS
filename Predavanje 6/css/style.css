@@ -1,0 +1,68 @@
+* {
+    /* background-color: unset;
+    background-color: transparent;
+    background-color: cadetblue;
+    background-color: #000000;
+    background-color: #2729aa;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(231, 123, 345); 
+    background-color: rgba(231, 123, 345, 0.5);
+    */
+}
+
+/* stil se primjenjuje na sve p tagove */
+p {
+    color: black;
+}
+
+/* stil se primjenjuje na h1 tag u p tagu */
+p h1 {
+    color: white;
+}
+
+/* stil se primjenjuje na sve p i h1 tagove */
+p, h1 {
+    color: yellow;
+}
+
+.nav {
+    /* ..... */
+}
+
+#tagid2 {
+    /* ..... */
+}
+
+/* stil se primjenjuje na sve p tagove sa klasom "nav" */
+p.nav {
+
+}
+
+li.nav {
+    /* display: block;
+    display: inline;
+    display: inline-block;
+    display: flex;
+    display: grid; */
+}
+/*
+Block elementi -> p, h1->h6, li, ...
+Inline elementi -> a, form, ...
+*/
+/* stil se primjenjuje na sve p tagove sa klasom "nav" */
+p {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+}
+
+a {
+    /* 
+    NEISPRAVNO
+    height: 300 px;
+    height: 300 %; */
+    width: 300px;
+    height: 300%;
+    background-color: yellow;
+}

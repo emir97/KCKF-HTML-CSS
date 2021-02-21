@@ -1,0 +1,16 @@
+.banner, .nav-menu, .body, .footer {
+    width: 1000px;
+    margin: auto;
+}
+.banner img
+{
+    width: 100%;
+}
+
+.nav-menu .nav-menu-item {
+    text-align: center;
+    padding: 0 90px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
