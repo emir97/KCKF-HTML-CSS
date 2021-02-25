@@ -1,0 +1,87 @@
+/*
+    flex-wrap
+    flex-direction
+    justify-content
+    align-items
+    align-content
+    flex-basis
+    flex-grow
+    order
+    align-self
+*/
+.mojDiv, .mojDiv2 {
+    width: 300px;
+    height: 300px;
+}
+.mojDiv {
+    background-color: yellow;
+}
+.mojDiv2 {
+    background-color: red;
+}
+
+.mojDiv {
+    /* Definise nacin prikazivanja nekog html elementa */
+    /* display: ; */
+
+    /* Default-no za block tagove */
+    /* display: block;   */
+
+    /* Default-no za inline tagove */
+    /* display: inline;   */
+
+    /* Skriva html elemetn iz sadrzaja */
+    /* display: none; */
+}
+/* .nav-menu ul {
+    background-color: black;
+} */
+
+.nav-menu {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+.nav-menu .logo {
+    color: white;
+}
+.nav-menu li {
+    display: inline;
+    background-color: black;
+    margin: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.nav-menu li a {
+    color: white;
+    text-decoration: none;
+}
+.header {
+    position: relative;
+    top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.header .header-item {
+    width: 350px;
+    text-align: center;
+}
+/*
+    flex-wrap
+    -- flex-direction
+    justify-content
+    align-items
+    align-content
+    flex-basis
+    flex-grow
+    order
+    align-self
+*/
+.n2x {
+    flex-grow: 2;
+    flex-basis: 450px;
+}
