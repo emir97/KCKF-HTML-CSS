@@ -1,0 +1,29 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+}
+.news-image img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.news-content{
+    padding: 15px;
+}
+.news-content-heading {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.news-content-text {
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+.item-1, .item-2, .item-3 {
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
