@@ -1,0 +1,111 @@
+/* 
+:visited
+----:hover-----
+:active
+
+
+:first-child
+:empty
+:last-child
+:nth-child(n)
+:nth-last-child(n)
+
+:checked
+:disabled 
+:required
+
+
+:target
+*/
+
+
+/*
+tag:pseudo-class
+{
+    property: value;
+}
+:visited -> Posjeceni link
+:hover -> Prelaz misem
+:active -> Drzimo select misem
+*/
+a {
+    text-decoration: none;
+}
+.btn:visited, .btn2:visited
+{
+    color: red;
+}
+
+
+a:hover {
+    background-color: black;
+}
+
+/* .btn {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+} */
+.container {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+}
+
+.container:hover {
+    background-color: red;
+    width: 300px;
+    height: 100px;
+}
+
+.container:active 
+{
+    background-color: blue;
+}
+
+div:first-child {
+    font-size: 16px;
+}
+
+div:last-child 
+{
+    font-size: 50px;
+    color: red;
+}
+
+div:nth-child(1){
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+
+div:nth-last-child(2){
+
+}
+
+/* 
+.container div:first-child {
+    font-size: 16px;
+} 
+div:nth-child(1){
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+.container div:last-child {
+    font-size: 16px;
+} 
+div:nth-last-child(1){
+    
+}
+*/
+
+.long-container 
+{
+    position: relative;
+    height: 1500px;
+}
